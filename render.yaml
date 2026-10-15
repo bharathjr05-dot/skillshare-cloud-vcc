@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: skillshare-cloud-vcc
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /
